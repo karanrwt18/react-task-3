@@ -1,15 +1,12 @@
-
-import StudentRegistration from "../pages/StudentRegistration.jsx";
-import Login from "../pages/Login.jsx";
-
-function App() {
+import React from 'react'
+import Task  from './Task'
+const App = () => {
+    
   return (
     <div>
-      <StudentRegistration />
-      <hr />
-      <Login />
+    <Task/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
